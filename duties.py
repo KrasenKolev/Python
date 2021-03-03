@@ -21,6 +21,8 @@
 ## SOFTWARE.
 
 
+#!/usr/bin/env python3
+
 import random
 from os import system
 
