@@ -28,7 +28,7 @@ This script will:
 3. Run 'traceroute' to each IP address and it will print the result on the screen.
 '''
 
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 __version__ = 1.0
 
