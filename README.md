@@ -1,7 +1,7 @@
 # Python
 
 
-## multiTraceroute
+## multiTracerouteV2
 
 multiTraceroute script will: 
 1. Prompt the user for IP addresses as input.
