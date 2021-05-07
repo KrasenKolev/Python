@@ -1,5 +1,13 @@
 # Python
 
+## VPNreset
+
+VPNreset script working on Cisco ASA firewalls and it is designed to:
+1. check VPN status on (based on user provided FW hostname and peer IP address) 
+2. It will check and compare the traffic count on all SAs and it will inform the user if the traffic is flowing, if the traffic is flowing only on few SAs or if the traffic is not flowing on any SA. 
+3. It will prompt if the user wants to reset the VPN session (clear phase 1 and phase 2) 
+4. It will check if the VPN is configure to use IKEv1 or IKEv2 and it will reset the VPN with the relevant commands. 
+NOTE: There are some regular expressions which needs to customized according to the individual configuration standards. Rows where the code needs to be customized are marked with "!!!"
 
 ## multiTracerouteV2
 
